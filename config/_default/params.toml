@@ -11,6 +11,7 @@ autoSwitchAppearance = true
 
 enableSearch = false
 enableCodeCopy = false
+enableEmoji = true
 
 replyByEmail = false
 
@@ -36,7 +37,7 @@ giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -46,8 +47,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showScrollToTop = true
 
 [homepage]
-  layout = "hero" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "homepage_photo.png" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
   showMoreLink = false

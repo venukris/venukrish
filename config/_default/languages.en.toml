@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Venu Krishnamurthy"
+title = "Venu's Online Hub"
 
 [params]
   displayName = "EN"
@@ -12,7 +12,7 @@ title = "Venu Krishnamurthy"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "© Copyright 2025, Venu Krishnamurthy"
 
 [params.author]
    name = "Venu Krishnamurthy"
@@ -35,7 +35,7 @@ title = "Venu Krishnamurthy"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-     { github = "https://github.com/venukris" },
+#     { github = "https://github.com/venukris" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
