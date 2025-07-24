@@ -17,7 +17,7 @@ title = "Venu's Online Hub"
 [params.author]
    name = "Venu Krishnamurthy"
    email = "venukris@gmail.com"
-   image = "homepage_photo.png"
+   image = "homepage_photo.jpg"
    imageQuality = 96
    headline = "Crafting this space bit by bit.."
    bio = "A little bit about you"
