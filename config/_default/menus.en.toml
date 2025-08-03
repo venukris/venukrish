@@ -10,10 +10,16 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "About"
+[[main]]
+  name = "About"
 #  pageRef = "about"
-#  weight = 5
+  weight = 5
+
+[[main]]
+  name = "My VFX Journey"
+  pageRef = "about"
+  parent = "About"
+  weight = 5
 
 #[[main]]
 # name = "Blog"

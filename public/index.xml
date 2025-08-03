@@ -9,7 +9,17 @@
     <managingEditor>venukris@gmail.com (Venu Krishnamurthy)</managingEditor>
     <webMaster>venukris@gmail.com (Venu Krishnamurthy)</webMaster>
     <copyright>© Copyright 2025, Venu Krishnamurthy</copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jul 2025 18:57:09 +1200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My VFX Journey</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 24 Jul 2025 18:57:09 +1200</pubDate>
+      <author>venukris@gmail.com (Venu Krishnamurthy)</author>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
