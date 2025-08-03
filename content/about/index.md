@@ -2,6 +2,10 @@
 date = '2025-07-24T18:57:09+12:00'
 title = 'My VFX Journey'
 showAuthor = false
+showDate = false
+showWordCount = false
+showDuration = false
+showReadingTime = false
 +++
 
 My career in the film, animation, and visual effects industry spans **over two decades**, rooted in my **Computer Science engineering** background. It all began in 2003 as an animator and character rigger at **Paprikaas** in Bengaluru, where I contributed to various kids’ TV shows.
