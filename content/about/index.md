@@ -1,12 +1,14 @@
 +++
 date = '2025-07-24T18:57:09+12:00'
-title = 'My VFX Journey'
+title = 'About'
 showAuthor = false
 showDate = false
 showWordCount = false
 showDuration = false
 showReadingTime = false
 +++
+
+## My VFX Journey
 
 My career in the film, animation, and visual effects industry spans **over two decades**, rooted in my **Computer Science engineering** background. It all began in 2003 as an animator and character rigger at **Paprikaas** in Bengaluru, where I contributed to various kids’ TV shows.
 
@@ -18,4 +20,4 @@ My international career began in 2015 when I moved to **[Animal Logic](https://a
 
 Subsequently, in 2017, I became a **Lead Pipeline Technical Director** at **[Base FX](https://www.base-fx.com/)** in Xiamen, China, where I was instrumental in establishing the pipeline for their first feature animation, [Wish Dragon](https://www.imdb.com/title/tt5562070/). My key contribution was to develop the Crowds pipeline and supporting tooling from the ground up, integrating the [Atoms Crowd](https://atoms.toolchefs.com/) plugin for Maya for authoring and simulating crowds.
 
-Finally, in 2019, I joined **Weta Digital** (now **[Weta FX](https://www.wetafx.co.nz)**) in Wellington, New Zealand. As a **Creature Pipeline TD** and **Senior Software Engineer** for the past six years, I've been integrating various in-house frameworks into the creature asset build, simulation and baking pipeline while also writing applications for Creatures Department. Additionally, I've been building and maintaining a highly scalable procedural simulation dependency framework involving proprietary simulation solvers for muscle, hair, cloth and fur elements. The result is a pipeline that facilitates efficient creation of realistic creatures for numerous visual effects movies and TV shows such as [Rise of the Planet of the Apes](https://www.imdb.com/title/tt1318514/), [Avatar: The Way of Water](https://www.imdb.com/title/tt1630029/) and the upcoming [Avatar: Fire and Ash](https://www.imdb.com/title/tt1757678/).
+Finally, in 2019, I joined **Weta Digital** (now **[Weta FX](https://www.wetafx.co.nz)**) in Wellington, New Zealand. As a **Creature Pipeline TD** and **Senior Software Engineer** for the past six years, I've been integrating various in-house frameworks and simulation solvers into the creature asset build, simulation and baking pipeline while also writing applications for Creatures Department. The result is a pipeline that facilitates efficient creation of realistic creatures for numerous visual effects movies and TV shows such as [Rise of the Planet of the Apes](https://www.imdb.com/title/tt1318514/), [Avatar: The Way of Water](https://www.imdb.com/title/tt1630029/) and the upcoming [Avatar: Fire and Ash](https://www.imdb.com/title/tt1757678/).
