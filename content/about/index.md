@@ -8,7 +8,7 @@ showDuration = false
 showReadingTime = false
 +++
 
-## My VFX Journey
+## My Journey
 
 My career in the film, animation, and visual effects industry spans **over two decades**, rooted in my **Computer Science** background. It all began in 2003 as an animator and character rigger at **Paprikaas** in Bengaluru, where I contributed to various kids’ TV shows.
 
