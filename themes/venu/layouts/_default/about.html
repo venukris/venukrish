@@ -1,0 +1,192 @@
+{{ define "main" }}
+<div class="container">
+
+  <section class="page-header">
+    <h1>{{ .Title }}</h1>
+    <p class="subtitle">{{ .Description }}</p>
+  </section>
+
+  <section class="prose about-intro">
+    <p>
+    I'm a software engineer in animation and visual effects, with 20+ years
+    across the industry in roles ranging from animator and rigger to pipeline TD
+    and software engineer. I enjoy building the tools and systems that help artists create 
+    digital creatures and worlds you see in films like 
+    <a href="https://www.imdb.com/title/tt1277953/" target="_blank" rel="noopener">Madagascar 3</a> and
+    <a href="https://www.imdb.com/title/tt1757678/" target="_blank" rel="noopener">Avatar: Fire and Ash</a>.
+    
+    </p>
+    <p>
+    Today I work as <b><i>Senior Software Engineer</i></b> at 
+    <a href="https://www.wetafx.co.nz" target="_blank" rel="noopener">Wētā FX</a>
+    in Wellington, New Zealand, focusing on creature and costume simulation pipeline
+    — building the infrastructure that lets artists work at the scale these films demand.
+    </p>
+
+  </section>
+  <section class="about-section prose">
+    <h2>What I do</h2>
+    <p>
+      Achieving plausible realism in creatures for movies requires them to be built in 
+      an anatomically precise way — skeleton, muscles, fat, fascia, skin — with costumes, 
+      hair, and fur layered on top. Add motion capture or hand animation for face and body, 
+      throw in natural elements like water, wind, or fire, and you have one of the most 
+      computationally demanding problems in film production. My job, as part of the Creatures 
+      pipeline team at Wētā FX, is to make that process as procedural and efficient as possible.
+    </p>
+    
+    <p>
+      In practice that means a few things: keeping artist-facing tools
+      responsive and performant when loading complex simulation and bake data;
+      building pipeline systems that are procedural enough to only regenerate
+      what's changed rather than reprocessing everything from scratch; versioning
+      and tracking simulation and bake data so we know what to keep and discard,
+      and everything is reviewable. 
+    </p>
+
+    <blockquote class="pull-quote">
+      One of the most computationally demanding problems in film production — and my job is to 
+      make it as efficient as possible.
+    </blockquote>
+
+    <p>
+      Most of this is built in Python, integrating
+      in-house and third-party simulation solvers, render engines, and data
+      formats to support workflows across DCCs like Maya and Houdini.
+    </p>
+  </section>
+  <section class="about-section prose">
+    <h2>How I got here</h2>
+    
+    <div class="narrative-timeline">
+      <div class="nt-item">
+        <div class="nt-year">2003</div>
+        <div class="nt-body prose">
+          <p>
+          I started my career in Bengaluru in the early 2000s as an animator at <strong>Paprikaas Studios</strong>,
+          a small studio producing children's TV series for broadcasters in Korea and France.
+          It was a humble beginning, but it was where I first learnt the art of giving life
+          to characters on screen.
+          </p>
+        </div>
+      </div>
+
+      <div class="nt-item">
+        <div class="nt-year">2005</div>
+        <div class="nt-body prose">
+          <p>
+            From there I moved to <strong>Prana Studios</strong> in Mumbai, which became the first real 
+            turning point. I joined as a tool developer, writing scripts to automate and standardise rig
+            setups for Disney's <i><a href="https://www.imdb.com/title/tt0823671" target="_blank"
+            rel="noopener">Tinker Bell</a></i>. Over time I grew into a Rigging Lead on its sequels, 
+            and eventually Head of Rigging — managing the team, bidding projects, and collaborating across
+            departments to find and fix inefficiencies in production. Realising how much a well-designed 
+            pipeline could improve the way artists worked made me want to build one.
+          </p>
+        </div>
+      </div>
+
+      <div class="nt-item">
+        <div class="nt-year">2009</div>
+        <div class="nt-body prose">
+          <p>
+            The opportunity came when <strong>Dreamworks</strong> opened a unit under Technicolor
+            in Bengaluru. I joined as a Technical Director, working on Crowds pipeline across six
+            years and many productions including 
+            <i><a href="https://www.imdb.com/title/tt0892791" target="_blank" rel="noopener">Shrek Forever After</a>,
+            <a href="https://www.imdb.com/title/tt1277953" target="_blank" rel="noopener">Madagascar 3</a>,
+            <a href="https://www.imdb.com/title/tt1911658" target="_blank" rel="noopener">Penguins of Madagascar</a>,
+            <a href="https://www.imdb.com/title/tt1646971" target="_blank" rel="noopener">How to Train Your Dragon</a></i>,
+            and a couple of holiday TV specials. 
+          </p>
+          <p>
+          It was a formative stretch. I got to visit the DreamWorks studios in Los Angeles
+          and San Francisco, work directly with teams there, and understand how technology 
+          and pipeline teams collaborate to build and run production pipelines at that scale.
+          </p>
+        </div>
+      </div>
+
+      <div class="nt-item">
+        <div class="nt-year">2015</div>
+        <div class="nt-body prose">
+          <p>
+            From there the path took me further to <strong>Animal Logic</strong> in Sydney as Performance TD 
+            for the <i><a href="https://www.imdb.com/title/tt3014284" target="_blank" rel="noopener">Lego Ninjago</a></i>
+            and <i><a href="https://www.imdb.com/title/tt4116284" target="_blank" rel="noopener">Lego Batman</a></i> movies,
+            then to <strong>Base FX</strong> in Xiamen as Lead Pipeline TD for first animated feature 
+            <i><a href="https://www.imdb.com/title/tt5562070" target="_blank" rel="noopener">Wish Dragon</a></i> — 
+            I played an instrumental role in establishing parts of their new animation pipeline.
+          </p>
+        </div>
+      </div>
+
+      <div class="nt-item">
+        <div class="nt-year">2019</div>
+        <div class="nt-body prose">
+          <p>
+            And eventually to <strong>Wētā FX</strong> in Wellington, which was always the dream. 
+            For anyone working in this industry, it's hard not to be in awe of what the studio 
+            has built — Academy Awards for The Lord of the Rings, Avatar, and dozens of others. 
+            Since joining in 2019 I've been part of two Academy Award winning productions myself —
+            <i><a href="https://www.imdb.com/title/tt1630029" target="_blank" rel="noopener">Avatar: The Way of Water</a></i>
+            and <i><a href="https://www.imdb.com/title/tt1757678" target="_blank" rel="noopener">Avatar: Fire and Ash</a></i> 
+            — and many more great shows. It's been a truly humbling experience working alongside 
+            industry vetarans.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-section prose">
+    <h2>Backstory</h2>
+    <p>
+      None of this was planned — but looking back, the signs were always there.
+    </p>
+    <p>
+     Growing up, I was drawn to a few things: art, science, computers, and the special effects
+      in movies and music videos. As it turned out, these became the core of what I do in and
+      out of work.
+    </p>
+    <p>
+      Art was never formal — no classes, no training, just a compulsion to make things. 
+      My clearest memories are of chalk carving during classroom breaks: chess pieces, 
+      cannons, and a linked chain carved from a single piece of chalk that I was 
+      particularly proud of. I'd gather tools from wherever I could find them — 
+      files from my uncle's opticals shop, pins, drill bits of various sizes.
+      Nothing purpose-built, just whatever worked. That love of making things with 
+      my hands just keeps coming back finding new forms.
+    </p>
+    <p>
+      Much of my curiosity came from the people around me. My dad, an engineer with a
+      love of astronomy, bought me many science books and taught me about stars, planets,
+      and celestrial objects. My relative, a scientist at the Indian Space Research Organisation
+      had electronics and science kits at home that he was happy to share and explain.
+      That engrained the habit of taking things apart and asking how they worked.
+    </p>
+    <p>
+      Computers arrived at my school when I was around twelve. I was immediately hooked
+      to playing games like <i>Pac-Man</i> and <i>Prince of Persia</i>, but later also to programming.
+      Telling a machine what to do and watching it respond felt like magic! Around the same
+      time I was fascinated by films like <i>Terminator 2, Aliens</i>, and <i>Jurassic Park</i>.
+      I wondered how they made them — the creatures, the morphing metal, the dinosaurs.
+    </p>
+    <p>
+      <a href="https://rajspace.in/" target="_blank" rel="noopener">Rajiv</a>, my school 
+      friend still calls me a right-brainer — and he's not entirely wrong. But I've always needed
+      both engineering and art. Neither feels complete without the other.
+    </p>
+  </section>
+
+  <section class="about-section prose">
+    <h2>Outside of work</h2>
+    <p>
+      In my spare time I'm into fitness, reading, listening to podcasts, and getting outside.
+      I've also been increasingly drawn to investing and economics — an interest that arrived
+      late but has turned out to be one of the most intellectually stimulating rabbit holes
+      I've fallen into. The <a href="/interests/">Interests</a> section is where I write about all of it.
+    </p>
+  </section>
+
+</div>
+{{ end }}
