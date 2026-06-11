@@ -257,7 +257,11 @@ a { transition: color 0.15s ease; }
 }
 
 .home-intro-text h1 {
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+
+.home-intro-text .text-muted {
+  margin-top: var(--space-1);
 }
 
 .home-intro-tagline {
@@ -659,6 +663,13 @@ a { transition: color 0.15s ease; }
   }
 
   .nav-links {
+    gap: var(--space-2);
+  }
+
+  /* Nav — copyright on top, links below */
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
     gap: var(--space-2);
   }
 
