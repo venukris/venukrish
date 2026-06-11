@@ -250,10 +250,6 @@ a { transition: color 0.15s ease; }
   padding: var(--space-8) 0 var(--space-6);
   border-bottom: 1px solid var(--border);
   margin-bottom: var(--space-6);
-  display: flex;
-  align-items: top;
-  justify-content: space-between;
-  gap: var(--space-4);
 }
 
 .home-intro-text {
@@ -263,6 +259,13 @@ a { transition: color 0.15s ease; }
 .home-intro-text h1 {
   margin-bottom: var(--space-2);
 }
+
+.home-intro-tagline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
 
 .home-tagline {
   font-size: var(--text-xl);
@@ -283,8 +286,8 @@ a { transition: color 0.15s ease; }
 }
 
 .avatar {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
@@ -643,4 +646,42 @@ a { transition: color 0.15s ease; }
 .nt-body strong {
   color: var(--accent);
   font-weight: 600;
+}
+
+/* ── Mobile ──────────────────────────────────────────────── */
+@media (max-width: 640px) {
+
+  /* Nav — stack name on top, links below */
+  .nav-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+
+  .nav-links {
+    gap: var(--space-2);
+  }
+
+  /* Home intro — stack photo below text */
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .home-tagline {
+    font-size: var(--text-base);
+  }
+
+  /* Timeline — collapse meta column */
+  .nt-item {
+    grid-template-columns: 36px 1fr;
+    gap: var(--space-2);
+  }
+
+  /* Career timeline */
+  .ct-item {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
 }
